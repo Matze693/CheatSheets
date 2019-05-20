@@ -16,4 +16,6 @@ add changes to stash | `git stash [push [--patch]] [-m <message>] <files>` | [gi
 remove all stash entries | `git stash clear ` | [git-stash](https://git-scm.com/docs/git-stash)
  | | 
  revert commit | `git revert [--no-edit] <commit>` | [git-revert](https://git-scm.com/docs/git-revert)
- 
+ | | 
+ commit changes | `git commit [-m <message>] ` | [git-commit](https://git-scm.com/docs/git-commit)
+ amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-scm.com/docs/git-commit)
