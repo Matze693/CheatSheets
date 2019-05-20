@@ -14,3 +14,6 @@ delete branch | `git branch -d <branch>` | [https://git-scm.com/docs/git-branch]
  | | 
 add changes to stash | `git stash [push [--patch]] [-m <message>] <files>` | [https://git-scm.com/docs/git-stash](https://git-scm.com/docs/git-stash)
 remove all stash entries | `git stash clear ` | [https://git-scm.com/docs/git-stash](https://git-scm.com/docs/git-stash)
+ | | 
+ revert commit | `git revert [--no-edit] <commit>` | [https://git-scm.com/docs/git-revert](https://git-scm.com/docs/git-revert)
+ 
