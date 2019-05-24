@@ -1,7 +1,7 @@
 # git
 | *description* | *command* | *link* |
 | -------------:|:--------- | ------ |
-create new repo | `git init` | | [git-init](https://git-scm.com/docs/git-init)
+create new repo | `git init` | [git-init](https://git-scm.com/docs/git-init)
 clone repo | `git clone <path\|url> [<directory>]` | [git-clone](https://git-scm.com/docs/git-clone)
 connect local repo to remote repo | `git remote add <name> <path\|url>` | [git-remote](https://git-scm.com/docs/git-remote)
  | | 
