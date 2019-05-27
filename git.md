@@ -15,7 +15,9 @@ delete branch | `git branch -d <branch>` | [git-branch](https://git-scm.com/docs
 add changes to stash | `git stash [push [--patch]] [-m <message>] <files>` | [git-stash](https://git-scm.com/docs/git-stash)
 remove all stash entries | `git stash clear ` | [git-stash](https://git-scm.com/docs/git-stash)
  | | 
- revert commit | `git revert [--no-edit] <commit>` | [git-revert](https://git-scm.com/docs/git-revert)
+revert commit | `git revert [--no-edit] <commit>` | [git-revert](https://git-scm.com/docs/git-revert)
  | | 
- commit changes | `git commit [-m <message>] ` | [git-commit](https://git-scm.com/docs/git-commit)
- amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-scm.com/docs/git-commit)
+commit changes | `git commit [-m <message>] ` | [git-commit](https://git-scm.com/docs/git-commit)
+amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-scm.com/docs/git-commit)
+ | | 
+copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick)
