@@ -21,3 +21,5 @@ commit changes | `git commit [-m <message>] ` | [git-commit](https://git-scm.com
 amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-scm.com/docs/git-commit)
  | | 
 copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick)
+ | | 
+sync local with remote branches | `git remote prune origin` | [git-remote](https://git-scm.com/docs/git-remote)
