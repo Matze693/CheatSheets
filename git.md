@@ -5,6 +5,8 @@ create new repo | `git init` | [git-init](https://git-scm.com/docs/git-init)
 clone repo | `git clone <path\|url> [<directory>]` | [git-clone](https://git-scm.com/docs/git-clone)
 connect local repo to remote repo | `git remote add <name> <path\|url>` | [git-remote](https://git-scm.com/docs/git-remote)
  | | 
+show commit changes | `git show [<commit>]` | [git-show](https://git-scm.com/docs/git-show)
+ | |
 add changes to INDEX | `git add [--patch] <files>` | [git-add](https://git-scm.com/docs/git-add)
 reset changes from INDEX | `git reset HEAD <files>` | [git-reset](https://git-scm.com/docs/git-reset)
  | | 
