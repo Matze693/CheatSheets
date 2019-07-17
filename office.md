@@ -1,6 +1,7 @@
 # Office
 
 ## Outlook
+
 ### Shortcuts
 | *section* | *shortcut* | *description* |
 | ---------:|:----------:| ------------- |
@@ -11,8 +12,13 @@ email overview | STRG-q | mark email as read
 email writing | STRG-k | verify email addresses
 email writing | STRG-k | create hyperlink
 
+
 ## OneNote
+
 ### Shortcuts
 | *shortcut* | *description* |
 |:---------- | ------------- |
 STRG-k | create hyperlink
+
+### Add-Ins
+* [NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016)
