@@ -1,4 +1,6 @@
 # git
+
+## Commands
 | *description* | *command* | *link* |
 | -------------:|:--------- | ------ |
 create new repo | `git init` | [git-init](https://git-scm.com/docs/git-init)
