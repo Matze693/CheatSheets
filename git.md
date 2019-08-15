@@ -40,5 +40,5 @@ sync local with remote branches | `git remote prune origin` | [git-remote](https
 3 | checkout *feature* branch | `git checkout <branch>`
 4 | rebase *feature* on *target* branch | `git rebase <branch>`
 5 | checkout *target* branch | `git checkout <branch>`
-6 | merge *feature* into *target* branch wiht **no-ff** | `git merge --no-ff <branch>`
+6 | merge *feature* into *target* branch with **no-ff** | `git merge --no-ff <branch>`
 7 | publish *target* branch | `git push origin <branch>`
