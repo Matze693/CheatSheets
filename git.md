@@ -27,3 +27,18 @@ amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-
 copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick)
  | | 
 sync local with remote branches | `git remote prune origin` | [git-remote](https://git-scm.com/docs/git-remote)
+
+## Workflows
+
+### Semi-Linear History
+[https://www.bitsnbites.eu/a-tidy-linear-git-history/](https://www.bitsnbites.eu/a-tidy-linear-git-history/)
+
+| *step* | *description* | *command* |
+| ------:|:-------------:| --------- |
+1 | checkout *target* branch | `git checkout <branch>`
+2 | pull on *target* branch | `git pull`
+3 | checkout *feature* branch | `git checkout <branch>`
+4 | rebase *feature* on *target* branch | `git rebase <branch>`
+5 | checkout *target* branch | `git checkout <branch>`
+6 | merge *feature* into *target* branch wiht **no-ff** | `git merge --no-ff <branch>`
+7 | publish *target* branch | `git push origin <branch>`
