@@ -1,5 +1,6 @@
 # git
 
+
 ## Commands
 | *description* | *command* | *link* |
 | -------------:|:--------- | ------ |
@@ -30,3 +31,19 @@ copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com
 sync local with remote branches | `git remote prune origin` | [git-remote](https://git-scm.com/docs/git-remote)
  | | 
 ignore updates of tracked file | `git update-index --skip-worktree <file>` | [git-update-index](https://www.git-scm.com/docs/git-update-index)
+
+
+## Workflows
+
+### Semi-Linear History
+[https://www.bitsnbites.eu/a-tidy-linear-git-history/](https://www.bitsnbites.eu/a-tidy-linear-git-history/)
+
+| *step* | *description* | *command* |
+| ------:|:-------------:| --------- |
+1 | checkout *target* branch | `git checkout <branch>`
+2 | pull on *target* branch | `git pull`
+3 | checkout *feature* branch | `git checkout <branch>`
+4 | rebase *feature* on *target* branch | `git rebase <branch>`
+5 | checkout *target* branch | `git checkout <branch>`
+6 | merge *feature* into *target* branch with **no-ff** | `git merge --no-ff <branch>`
+7 | publish *target* branch | `git push origin <branch>`
