@@ -1,5 +1,6 @@
 # git
 
+
 ## Commands
 | *description* | *command* | *link* |
 | -------------:|:--------- | ------ |
@@ -17,6 +18,7 @@ switch to branch or commit | `git checkout <branch\|commit>` | [git-checkout](ht
 delete branch | `git branch -d <branch>` | [git-branch](https://git-scm.com/docs/git-branch)
  | | 
 add changes to stash | `git stash [push [--patch]] [-m <message>] <files>` | [git-stash](https://git-scm.com/docs/git-stash)
+remove and apply stash | `git stash pop [--index] [-q\|--quiet] [<stash>]` | [git-stash](https://git-scm.com/docs/git-stash)
 remove all stash entries | `git stash clear ` | [git-stash](https://git-scm.com/docs/git-stash)
  | | 
 revert commit | `git revert [--no-edit] <commit>` | [git-revert](https://git-scm.com/docs/git-revert)
@@ -27,6 +29,9 @@ amend last commit | `git commit --amend [--no-edit]` | [git-commit](https://git-
 copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick)
  | | 
 sync local with remote branches | `git remote prune origin` | [git-remote](https://git-scm.com/docs/git-remote)
+ | | 
+ignore updates of tracked file | `git update-index --skip-worktree <file>` | [git-update-index](https://www.git-scm.com/docs/git-update-index)
+
 
 ## Workflows
 
