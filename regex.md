@@ -19,7 +19,6 @@
 `\t` | tab |
 `\r` | carriage return |
 `\n` | line feed |
-`\n` | line feed |   
 
 ## Characters Classes
 | *symbol* | *description* | *remark* |
