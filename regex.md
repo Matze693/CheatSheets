@@ -40,7 +40,7 @@
 ## Logic
 | *symbol* | *description* | *remark* |
 | -------------:|:--------- | ------ |
-`|` | or operand | `A|B` means one character that is A or B
+&#124; | or operand | A&#124;B means one character that is A or B
 `[^]` | not operand | `[^x]` is one character that is no x
 `(...)` | define a group | groups are numbered from left to right
 `\2` | repeat the content of group 2 |
