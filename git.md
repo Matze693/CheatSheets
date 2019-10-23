@@ -31,6 +31,9 @@ copy commit | `git cherry-pick <commit>` | [git-cherry-pick](https://git-scm.com
 sync local with remote branches | `git remote prune origin` | [git-remote](https://git-scm.com/docs/git-remote)
  | | 
 ignore updates of tracked file | `git update-index --skip-worktree <file>` | [git-update-index](https://www.git-scm.com/docs/git-update-index)
+ | |
+add submodule | `git submodule add <path\|url> [<directory>]` | [git-submodule](https://git-scm.com/docs/git-submodule)
+update submodule | `git submodule update [--init] [--recursive]` | [git-submodule](https://git-scm.com/docs/git-submodule)
 
 
 ## Workflows
