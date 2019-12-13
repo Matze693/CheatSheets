@@ -1,9 +1,17 @@
 # git
 
+## Configuration
+Useful and recommended variables for .gitconfig
+
+| *variable* | *recommended value* | *link* |
+| ---------- | ------- | ------ |
+`core.autocrlf` | `true` | [core.autocrlf](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreautocrlf)
+`pull.rebase` | `true` | [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase)
+`push.followTags` | `true` | [push.followTags](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushfollowTags)
 
 ## Commands
 | *description* | *command* | *link* |
-| -------------:|:--------- | ------ |
+| -------------:|:--------- |:------ |
 create new repo | `git init` | [git-init](https://git-scm.com/docs/git-init)
 clone repo | `git clone <path\|url> [<directory>]` | [git-clone](https://git-scm.com/docs/git-clone)
 connect local repo to remote repo | `git remote add <name> <path\|url>` | [git-remote](https://git-scm.com/docs/git-remote)
