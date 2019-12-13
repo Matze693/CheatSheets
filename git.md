@@ -9,6 +9,27 @@ Useful and recommended variables for .gitconfig
 `pull.rebase` | `true` | [pull.rebase](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pullrebase)
 `push.followTags` | `true` | [push.followTags](https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushfollowTags)
 
+### Aliases
+| *alias* | *command* |
+| ------- | --------- |
+`a` | `add`
+`ap` | `add --patch`
+`ci` | `commit`
+`cim` | `commit -m`
+`cia` | `commit --amend`
+`cian` | `commit --amend --no-edit`
+`co` | `checkout`
+`d` | `diff`
+`dw` | `diff --word-diff`
+`ds` | `diff --staged`
+`dsw` | `diff --staged --word-diff`
+`f` | `fetch`
+`fa` | `fetch --all`
+`fap` | `fetch --all --prune`
+`ll` | `log --oneline --max-count=50 --decorate --exclude=refs/stash`
+`lg` | `log --oneline --max-count=30 --decorate --exclude=refs/stash --graph`
+`s` | `status`
+
 ## Commands
 | *description* | *command* | *link* |
 | -------------:|:--------- |:------ |
